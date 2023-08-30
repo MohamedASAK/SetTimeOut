@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.TaskName{
+    text-align: center;
+    margin: 20px;
+}
+.holdHere{
+    background-color: beige;
+    text-align: center;
+    cursor: pointer;
+    height: 300px;
+    width: 100%;
+}
+.content{
+    padding: 100px 0px;
+    font-size: 25px;
+}
+.hiddenContent{
+    background-color: transparent;
+    color: transparent;
+    text-align: center;
+    margin: 25px 0px;
+    font-size: 25px;
+}
+.layout{
+    background-color: transparent;
+    color: transparent;
+}
+.Footer{
+    text-align: center;
+    margin-top: 25px;
+}
+.Footer a{
+    text-decoration: none;
+    color: red;
+}
+@media (max-width:768px){
+    .hiddenContent{
+        font-size: 20px;
+        
+    }
+}
+@media (max-width:425px){
+    .content{
+        padding: 120px 0px;
+        font-size: 20px;
+    }
+    .hiddenContent{
+        font-size: 14px;
+    }
+}
